@@ -1,0 +1,19 @@
+package first.hellword;
+
+import org.springframework.beans.factory.BeanFactory;
+import org.springframework.beans.factory.xml.XmlBeanFactory;
+import org.springframework.core.io.ClassPathResource;
+import org.springframework.core.io.Resource;
+
+public class ClientHellworld {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+Resource r= new ClassPathResource("spring.xml");
+BeanFactory fac= new XmlBeanFactory(r);
+Object o=fac.getBean("hell");
+Hellworld h=Hellworld(o);
+h.hello();
+	}
+
+}

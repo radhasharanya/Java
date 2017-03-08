@@ -1,0 +1,12 @@
+package Assignmentprograms;
+
+public class StringBuilderMethods {
+
+	public static void main(String[] args) {
+	
+		StringBuffer strbuf=new StringBuffer("Iphone");
+		strbuf.append("seven");
+		strbuf.insert(11, "New Release");
+	}
+
+}

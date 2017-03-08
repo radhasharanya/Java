@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+<class name="hibernate.autoddl.Department" table="Department" schema="sample">
+<id name="did" column="did">
+</id>
+<property name="dname" ></property>
+<property name="demail" ></property>
+
+</class>
+</hibernate-mapping>

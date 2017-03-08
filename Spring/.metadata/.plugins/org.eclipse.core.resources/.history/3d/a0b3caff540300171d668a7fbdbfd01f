@@ -1,0 +1,7 @@
+package first.hellword;
+
+public class PrivateConstr {
+	private PrivateConstr() {
+		// TODO Auto-generated constructor stub
+	}
+}

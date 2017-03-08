@@ -1,0 +1,12 @@
+package Assignmentprograms;
+
+public class Immutable {
+
+	public static void main(String[] args) {
+		String str = new String("Assignment");
+		str.concat("Programs");
+		StringBuffer strbuf=new StringBuffer("Assignment");
+		strbuf.append("programs");
+	}
+
+}

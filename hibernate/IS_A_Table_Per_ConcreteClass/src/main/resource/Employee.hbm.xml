@@ -1,0 +1,32 @@
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+<class name="IS_A_Table_Per_ConcreteClass.Employee" >
+<id name="id">
+</id>
+
+<property name="name" ></property>
+<property name="email" ></property>
+<property name="salary" ></property>
+<union-subclass name="IS_A_Table_Per_ConcreteClass.SoftwareEmp" table="Softwareemployee" schema="sample">
+
+<property name="tool"></property>
+</union-subclass>
+
+
+
+<union-subclass name="IS_A_Table_Per_ConcreteClass.HardwareEmp" table="HEmployee" schema="sample">
+
+<property name="wh"></property>
+</union-subclass>
+
+
+<union-subclass name="IS_A_Table_Per_ConcreteClass.Admin" table="Admin">
+
+<property name="branchname"></property>
+</union-subclass>
+
+
+</class>
+</hibernate-mapping>

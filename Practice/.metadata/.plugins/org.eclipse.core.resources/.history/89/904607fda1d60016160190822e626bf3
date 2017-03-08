@@ -1,0 +1,13 @@
+package Assignmentprograms;
+
+public class StringCompare {
+
+	public static void main(String[] args) {
+		String str="Sharanya";
+		String str1="sharanya";
+		System.out.println("String COmparision "+str.compareTo(str1));
+		
+
+	}
+
+}

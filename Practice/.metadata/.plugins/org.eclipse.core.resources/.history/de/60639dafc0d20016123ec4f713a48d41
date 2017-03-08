@@ -1,0 +1,12 @@
+
+public class SwitchCase {
+public static void main(String[] args) {
+	switch()
+	{
+		case 1: System.out.println("January");
+		 break;
+		 
+	}
+	
+}
+}

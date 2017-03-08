@@ -1,0 +1,27 @@
+package dayAssignment;
+enum Student{
+	Sharanya(100),Asha(101),Savan(102);
+	private int id;
+	Student(int id)
+	{
+		this.id=id;
+		
+	}
+	int getId()
+	{
+		return this.id;
+	}
+}
+
+public class EnumerationStudent {
+
+	public static void main(String[] args) {
+		System.out.println("Student ID");
+		for(Student s :Student.values())
+		{
+			System.out.println("Student"+c.getId());
+		}
+
+	}
+
+}

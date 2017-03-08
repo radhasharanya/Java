@@ -1,0 +1,12 @@
+
+public class Palindrome {
+
+	public static void main(String[] args) {
+		int n=121,reverse=0;
+		
+		int num=n;
+		
+
+	}
+
+}

@@ -1,0 +1,10 @@
+package DependencyInjection.SetterDI;
+
+public class ClientOneVaribleSDI {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

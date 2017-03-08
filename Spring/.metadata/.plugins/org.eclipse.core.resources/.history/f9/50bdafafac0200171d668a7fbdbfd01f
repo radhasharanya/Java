@@ -1,0 +1,11 @@
+package first.hellword;
+
+public class Hellworld {
+	String name;
+	
+	public void hello()
+	{
+		System.out.println("Hello"+ name);
+	}
+
+}

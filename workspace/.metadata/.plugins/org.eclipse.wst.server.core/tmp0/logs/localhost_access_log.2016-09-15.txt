@@ -1,0 +1,9 @@
+127.0.0.1 - - [15/Sep/2016:15:54:56 -0400] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [15/Sep/2016:15:54:58 -0400] "GET /SpringMVC/ HTTP/1.1" 200 166
+0:0:0:0:0:0:0:1 - - [15/Sep/2016:15:55:08 -0400] "GET /SpringMVC/login.ds?name=abc&password=abc HTTP/1.1" 500 3626
+127.0.0.1 - - [15/Sep/2016:15:59:37 -0400] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [15/Sep/2016:15:59:38 -0400] "GET /SpringMVC/ HTTP/1.1" 200 166
+0:0:0:0:0:0:0:1 - - [15/Sep/2016:15:59:46 -0400] "GET /SpringMVC/login.ds?name=abc&password=abc HTTP/1.1" 500 3626
+127.0.0.1 - - [15/Sep/2016:16:01:39 -0400] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [15/Sep/2016:16:01:42 -0400] "GET /SpringMVC/login.ds?name=abc&password=abc HTTP/1.1" 500 3626
+0:0:0:0:0:0:0:1 - - [15/Sep/2016:16:01:48 -0400] "GET /SpringMVC/login.ds?name=abc&password=abc HTTP/1.1" 500 3626

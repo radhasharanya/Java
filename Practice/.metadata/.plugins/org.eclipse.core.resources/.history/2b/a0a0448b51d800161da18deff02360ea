@@ -1,0 +1,16 @@
+package dayAssignment;
+
+public class JoinMethod {
+
+	public static void main(String[] args) {
+		FirstThread   fThread = new FirstThread();
+		 SecondThread   sThread = new SecondThread();
+		 ThirdThread  tThread = new ThirdThread();
+		 fThread.start();
+		 
+		 sThread.start();
+		 tThread.start();
+		 
+	}
+
+}

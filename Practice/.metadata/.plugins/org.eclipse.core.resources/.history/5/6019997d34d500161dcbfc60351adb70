@@ -1,0 +1,12 @@
+
+public class AbstractClass {
+
+	public static void main(String[] args) {
+		Circle c= new Circle();
+		c.draw();
+		System.out.println("****************************************");
+		Rectangle r= new Rectangle();
+		r.draw();
+	}
+
+}

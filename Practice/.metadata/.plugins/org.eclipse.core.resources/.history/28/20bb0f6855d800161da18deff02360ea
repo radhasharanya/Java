@@ -1,0 +1,16 @@
+package dayAssignment;
+
+public class Evenumbers {
+	
+	 void printEven(int n,String Name)
+	 {
+		 for(int i=1;i<=n;i++)
+			{
+				if(i%2==0){
+					System.out.println(i);
+				}
+			}
+	 }
+	 
+
+}

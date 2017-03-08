@@ -1,0 +1,12 @@
+package Assignmentprograms;
+
+public class StringConcat {
+
+	public static void main(String[] args) {
+		String str="hello";
+		String strConcat=str.concat("Java");
+		System.out.println("String concatination using + operator "+str+"World");
+		System.out.println("String Concatination using Concat() "+strConcat);
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;SetterDI&apos; to &apos;DependencyInjection&apos;" description="Rename resource &apos;SetterDI&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/SetterDI" name="DependencyInjection" stamp="1488938652327" updateReferences="true"/>
+</session>

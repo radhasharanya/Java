@@ -1,0 +1,14 @@
+package dayAssignment;
+
+public class GenericMethodTest {
+	public <E> void printData(E data)
+	{
+		System.out.println("input is"+data);
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

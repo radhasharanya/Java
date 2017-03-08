@@ -1,0 +1,10 @@
+package dayAssignment;
+
+public class SerializationTest {
+
+	public static void main(String[] args) {
+		StudentSer s=new StudentSer();
+		
+	}
+
+}

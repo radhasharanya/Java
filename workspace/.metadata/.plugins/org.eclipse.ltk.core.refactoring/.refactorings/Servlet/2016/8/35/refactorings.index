@@ -1,0 +1,36 @@
+1471969795740	Delete element
+1471969827653	Delete element
+1471969849857	Delete element
+1471969887100	Delete element
+1471969909788	Delete element
+1471969999746	Delete element
+1471970020796	Delete element
+1471970055369	Delete element
+1471970155928	Infer generic type arguments
+1471970162666	Delete element
+1472034945054	Move 'Login.jsp' to 'programs'
+1472035352613	Move 'Login.jsp' to 'WEB-INF'
+1472036652131	Move 'Login.jsp' to 'programs'
+1472049499922	Move 'Login.jsp' to 'WEB-INF'
+1472049534658	Move 'Login.jsp' to 'webapp'
+1472054196895	Move 'Details.jsp' to 'webapp'
+1472056012651	Delete element
+1472058721506	Delete element
+1472066484471	Delete element
+1472068342807	Rename resource 'Owner.java'
+1472068391241	Rename resource 'Ownerjava.java'
+1472068770093	Move compilation unit
+1472090921168	Delete element
+1472221254830	Rename resource 'someservlet.java'
+1472234467488	Rename resource 'UpdateOwner.jsp'
+1472238976044	Move 'OwnerDAO.java' to 'dao'
+1472239123793	Move 'OwnerDAO.java' to 'programs'
+1472239782688	Move 'OwnerDAO.java' to 'dao'
+1472239790111	Move 'PetDAO.java' to 'dao'
+1472239795681	Move 'VetDAO.java' to 'dao'
+1472239808772	Move 'OwnerDetails.java' to 'servlets'
+1472239812102	Move 'OwnerService.java' to 'servlets'
+1472239815394	Move 'OwnerServlet.java' to 'servlets'
+1472239830252	Move 'Confirmation.java' to 'servlets'
+1472239843112	Move 'SessionServlet.java' to 'servlets'
+1472241746355	Delete element

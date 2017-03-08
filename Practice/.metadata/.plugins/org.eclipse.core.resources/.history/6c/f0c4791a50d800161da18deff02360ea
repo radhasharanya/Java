@@ -1,0 +1,12 @@
+package dayAssignment;
+
+public class FirstThread extends Thread {
+
+	public static void main(String[] args) {
+		
+		Thread t =new Thread();
+		Thread t1= new Thread();
+		Thread 
+	}
+
+}

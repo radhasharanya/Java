@@ -1,0 +1,8 @@
+package dayAssignment;
+
+public class InterfaceClass {
+public static void main(String[] args) {
+	Addition a=new Addition();
+	a.Arthimetic(1, 4);
+}
+}

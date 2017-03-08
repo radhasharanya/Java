@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy source folder &apos;resources&apos; to &apos;hibernatesample&apos;&#x0D;&#x0A;- Original project: &apos;HibernateExample&apos;&#x0D;&#x0A;- Destination element: &apos;hibernatesample&apos;&#x0D;&#x0A;- Original element: &apos;HibernateExample/src/main/resources&apos;" description="Copy source folder" element1="/src\/main\/resources" flags="6" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyRoots" roots="1" stamp="1481742133368" target="/hibernatesample" version="1.0"/>
+</session>

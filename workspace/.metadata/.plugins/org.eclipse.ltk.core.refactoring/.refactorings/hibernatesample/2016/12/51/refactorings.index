@@ -1,0 +1,11 @@
+1481716832549	Rename resource 'student.hbm.xml'
+1481740817879	Move 'hibernate.cfg.xml' to 'hibernatesample'
+1481740819858	Move 'Student.hbm.xml' to 'hibernatesample'
+1481741940575	Rename source folder 'src/main/resources'
+1481742186536	Delete element
+1481742201845	Rename resource 'resource'
+1481742309053	Delete element
+1481742378360	Move 2 resources to 'hibernatesample'
+1481742394727	Delete element
+1481742418906	Delete element
+1481742443215	Move 2 resources to 'resources'

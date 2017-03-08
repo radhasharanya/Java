@@ -1,0 +1,14 @@
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+			"http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+<beans>
+<!-- <bean id="t" class="bean.Test" ></bean> -->
+<!-- <bean id="t" class="bean.Test" singleton="true/false" ></bean>  //this will in spring default dtd-->
+<bean name="/login.ds" class="controller.loginController" />
+<bean class="org.springframework.web.servlet.view.InternalResourceView">
+<property name="prefix" value="/">
+</property>
+<property name="suffix" value=".jsp">
+</property>
+</bean>
+
+</beans>

@@ -1,0 +1,13 @@
+package dayAssignment;
+
+public class SynchronizedTest {
+
+	public static void main(String[] args) {
+		Evenumbers even =new Evenumbers();
+		FirstThreadSynch fsyn=new FirstThreadSynch(even);
+		SecondThreadSynch ssyn= new SecondThreadSynch(even);
+		ThirdThreadSynch ssyn= new ThirdThreadSynch(even);
+		
+	}
+
+}

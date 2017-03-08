@@ -1,0 +1,30 @@
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+<class name="IS_A_Table_Per_SubClass.IS_A_Table_Per_SubClass.Employee" table="tblEmployee001" schema="sample">
+<id name="id">
+</id>
+
+<property name="name" ></property>
+<property name="email" ></property>
+<property name="salary" ></property>
+<joined-subclass name="IS_A_Table_Per_SubClass.IS_A_Table_Per_SubClass.SoftwareEmp" table="Semployee">
+<key column="id"></key>
+<property name="tool"></property>
+</joined-subclass>
+
+<joined-subclass name="IS_A_Table_Per_SubClass.IS_A_Table_Per_SubClass.HardwareEmp" table="HardwareEmp">
+<key column="id"></key>
+<property name="wh"></property>
+</joined-subclass>
+
+
+<joined-subclass name="IS_A_Table_Per_SubClass.IS_A_Table_Per_SubClass.Admin" table="Admin">
+<key column="id"></key>
+<property name="branchname"></property>
+</joined-subclass>
+
+
+</class>
+</hibernate-mapping>

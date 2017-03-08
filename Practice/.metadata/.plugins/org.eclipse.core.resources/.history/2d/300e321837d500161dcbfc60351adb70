@@ -1,0 +1,15 @@
+package dayAssignment;
+
+import java.text.DateFormat;
+import java.util.Date;
+
+public class DateClass {
+
+	public static void main(String[] args) {
+		DateFormat df=new DateFormat("MM/DD/YY");
+		Date d= new Date();
+				System.out.println(d.getDay());
+
+	}
+
+}

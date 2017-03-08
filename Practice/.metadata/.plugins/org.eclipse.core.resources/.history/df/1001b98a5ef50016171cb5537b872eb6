@@ -1,0 +1,63 @@
+package Servlet.Assignment;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Set;
+public class HashMapClass {
+
+   public static void main(String args[]) {
+	   int a[] = new int[]{24,45};
+	   int b[]=new int[]{16,18};
+	   int blue[]= new int[]{15,12};
+	   int temp;
+	   for(int i =0;i<a.length;i++){
+	
+		   for(int j=i+1;j<a.length-1;j++)
+		   {
+			  
+			  if(a[i]<=a[j]){
+				 
+				  
+				  temp=a[j];
+				 
+			  }
+			  i=j;
+			  j=j+1;
+		   }
+		   
+	   }
+	   System.out.println(temp);
+			 
+			 
+		   }
+	   }
+   
+
+     /*  This is how to declare HashMap 
+      Map<String, ArrayList<Integer>> hmap = new HashMap<String, ArrayList<Integer>();
+
+      Adding elements to HashMap
+    
+      hmap.put( "Green",new ArrayList<Integer>().add(24));
+      hmap.put(13,"Blue");
+      hmap.put( 18,"Red");
+      hmap.put( 19,"Green");
+      hmap.put(17,"Blue");
+       
+      ArrayList tempList = null;
+      
+      Set entrySet = hmap.entrySet();
+      Iterator it = entrySet.iterator();
+      while(it.hasNext()){
+    	  String key = it.next().toString(); 
+          //tempList = hmap.get(key);
+          if (tempList != null) {
+              for (String value: tempList) {
+                 System.out.println("Key : "+key+ " , Value : "+value);
+              }
+      }
+   }*/
+   
+

@@ -1,0 +1,36 @@
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+			"http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+<beans>
+<bean id="e" class="bean.SecondaryTypeExampleEgine">
+		<property name="engine" >
+		<value>2013</value>
+		</property>
+</bean>
+<bean id="e1" class="bean.SecondaryTypeExampleEgine">
+		<property name="engine" >
+		<value>2013</value>
+		</property>
+</bean>			
+				
+			
+		
+	
+	<bean id="car" class="bean.SecondaryTypeExampleCar">
+		<property name="Cars">
+			<list>
+			<value>verna</value>
+			<value>skoda</value>
+			<value>hyundai</value>
+			</list>
+		</property>
+		<property name="engine">
+		<list>
+		<ref bean="e"></ref>
+		<ref bean="e1"></ref>
+		
+
+		</list>
+		</property>
+		
+	</bean>
+</beans>

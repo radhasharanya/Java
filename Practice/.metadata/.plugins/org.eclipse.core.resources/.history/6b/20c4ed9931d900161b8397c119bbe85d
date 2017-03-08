@@ -1,0 +1,13 @@
+package dayAssignment;
+
+public class SerializationTest {
+
+	public static void main(String[] args) {
+		StudentSer s=new StudentSer();
+		s.setName("sharanya");
+		s.setId(111);
+		s.setMarks(100);
+		
+	}
+
+}

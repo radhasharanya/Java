@@ -1,0 +1,30 @@
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Iterator;
+import java.util.Set;
+public class HashMapClass {
+
+   public static void main(String args[]) {
+
+      /* This is how to declare HashMap */
+      HashMap<String, Integer> hmap = new HashMap<String, Integer>();
+
+      /*Adding elements to HashMap*/
+      hmap.put( "Red",14);
+      hmap.put( "Green",15);
+      hmap.put("Blue",13);
+      hmap.put( "Red",18);
+      hmap.put( "Green",19);
+      hmap.put("Blue",17);
+    
+      Set entrySet = hmap.entrySet();
+      Iterator it = entrySet.iterator();
+      while(it.hasNext()){
+          Map.Entry me = (Map.Entry)it.next();
+          System.out.println("Key is: "+me.getKey() + 
+          " & " + 
+          " value is: "+me.getValue());
+      }
+   }
+}

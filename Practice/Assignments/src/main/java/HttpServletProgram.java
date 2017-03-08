@@ -1,0 +1,29 @@
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import javax.servlet.RequestDispatcher;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+@WebServlet("/HttpServletProgram")
+public class HttpServletProgram extends HttpServlet {
+	
+	public void doGet(HttpServletRequest request, HttpServletResponse response)  
+	        throws ServletException, IOException {  
+	  
+	    response.setContentType("text/html");  
+	    PrintWriter out = response.getWriter();  
+	          
+	    String email=request.getParameter("email");  
+	   
+	    String passwrd=request.getParameter("password"); 
+	    request.setAttribute("email",email);
+	    request.setAttribute("password",passwrd);
+	    if(email.equals("abc@email.com")&&passwrd.equals("abc123")){
+	    	 RequestDispatcher rd=request.getRequestDispatcher("Details.jsp");
+	    	 rd.forward(request, response);
+	    }
+}
+}

@@ -1,0 +1,13 @@
+package sample.hibernatesample;
+
+public class Client {
+
+	public static void main(String[] args) {
+		Student st=new Student();
+		st.setId(11);
+		st.setName("ac");
+		st.setMarks(123);
+		st.setEmail("abc@gmail.com");
+	}
+
+}

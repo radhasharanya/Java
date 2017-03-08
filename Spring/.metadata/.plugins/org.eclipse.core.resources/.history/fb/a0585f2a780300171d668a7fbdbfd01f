@@ -1,0 +1,12 @@
+package DependencyInjection.SetterDI;
+
+import org.omg.CORBA.portable.ApplicationException;
+
+public class ClientOneVaribleSDI {
+
+	public static void main(String[] args) {
+		ApplicationContext
+
+	}
+
+}

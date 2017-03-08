@@ -1,0 +1,5 @@
+package Spring.Hibernate;
+
+public class EmployeeDao {
+
+}

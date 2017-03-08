@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;hibernate.cfg.xml&apos; to &apos;1_to_1/src/main/resource&apos;&#x0D;&#x0A;- Original project: &apos;autoddl&apos;&#x0D;&#x0A;- Destination element: &apos;1_to_1/src/main/resource&apos;&#x0D;&#x0A;- Original element: &apos;hibernate.cfg.xml&apos;" description="Copy file" destination="=1_to_1/src\/main\/resource" element1="src/main/resources/hibernate.cfg.xml" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1482542252653" units="0" version="1.0"/>
+</session>

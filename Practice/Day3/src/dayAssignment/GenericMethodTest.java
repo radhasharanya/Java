@@ -1,0 +1,18 @@
+package dayAssignment;
+
+public class GenericMethodTest {
+	public <E> void printData(E data)
+	{
+		System.out.println("input is  "+data);
+	}
+
+	public static void main(String[] args) {
+		GenericMethodTest g=new GenericMethodTest();
+		g.printData("hello");
+		g.printData(13);
+		g.printData('a');
+		g.printData(12.4);
+
+	}
+
+}

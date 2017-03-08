@@ -1,0 +1,16 @@
+package dayAssignment;
+
+public class ArthimeticException extends {
+
+	public static void main(String[] args) {
+		int a=0,b=9;
+		try{
+		b/a;
+			
+		}
+ catch(ArthimeticException e){
+	 
+ }
+	}
+
+}

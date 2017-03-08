@@ -1,0 +1,12 @@
+package dayAssignment;
+
+public class WritingFile {
+
+	public static void main(String[] args) {
+		try{
+			File f = new file("File.txt")
+		}
+
+	}
+
+}

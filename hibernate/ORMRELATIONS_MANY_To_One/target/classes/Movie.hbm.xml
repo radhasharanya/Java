@@ -1,0 +1,13 @@
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+    <hibernate-mapping>
+    <class name="HAS_A_MANY_TO_ONE.ORMRELATIONS.Movies" table="MtoOneMovies" schema="sample">
+    <id name="mid"></id>
+    <property name="Moviename"></property>
+    <many-to-one class="HAS_A_MANY_TO_ONE.ORMRELATIONS.Movies"  name="Actor">
+    <column name="aid"></column>
+    </many-to-one>
+    
+    </class>
+    </hibernate-mapping>

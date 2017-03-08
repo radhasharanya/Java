@@ -1,0 +1,23 @@
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+<class name="IS_A_Table_Per_Class.IS_A_Table_Per_Class.Employee" table="tblEmployee" schema="sample">
+<id name="id">
+</id>
+<discriminator column ="etype"></discriminator>
+<property name="name" ></property>
+<property name="email" ></property>
+<property name="salary" ></property>
+<subclass name="IS_A_Table_Per_Class.IS_A_Table_Per_Class.SoftwareEmp" discriminator-value="se">
+<property name="tool"></property>
+</subclass>
+
+<subclass name="IS_A_Table_Per_Class.IS_A_Table_Per_Class.HardwareEmp" discriminator-value="he">
+<property name="wh"></property>
+</subclass>
+<subclass name="IS_A_Table_Per_Class.IS_A_Table_Per_Class.Admin" discriminator-value="admin">
+<property name="branchname"></property>
+</subclass>
+</class>
+</hibernate-mapping>

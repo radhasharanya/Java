@@ -1,0 +1,6 @@
+package DayAssignment;
+
+public interface Shapes {
+	public void draw();
+
+}

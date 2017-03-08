@@ -1,0 +1,5 @@
+package DependencyInjection.SetterDI;
+
+public class OneVariableSDI {
+
+}

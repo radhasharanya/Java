@@ -1,0 +1,18 @@
+
+public class Palindrome {
+
+	public static void main(String[] args) {
+		int n=121,reverse=0;
+		
+		int num=n;
+		while(num!=0)
+		{
+			reverse=reverse*10;
+			rev=rev+n%10;
+			n=n/10;
+		}
+		
+
+	}
+
+}

@@ -1,0 +1,21 @@
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Iterator;
+import java.util.Set;
+public class HashMapClass {
+
+   public static void main(String args[]) {
+
+      /* This is how to declare HashMap */
+      HashMap<String, Integer> hmap = new HashMap<Integer, String>();
+
+      /*Adding elements to HashMap*/
+      hmap.put( "Red",14);
+      hmap.put( "Green",15);
+      hmap.put("Blue",13);
+      hmap.put( "Red",18);
+      hmap.put( "Green",19);
+      hmap.put("Blue",17);
+   }
+}

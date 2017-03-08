@@ -1,0 +1,10 @@
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+    <hibernate-mapping>
+    <class name="HAS_A_MANY_TO_ONE.ORMRELATIONS.Actor" table="MtoOneActor" schema="sample">
+    <id name="aid"></id>
+    <property name="name"></property>
+    
+    </class>
+    </hibernate-mapping>

@@ -1,0 +1,10 @@
+
+public class Palindrome {
+
+	public static void main(String[] args) {
+		int actualnumber=121;
+		int asignednumber=actualnumber;
+
+	}
+
+}

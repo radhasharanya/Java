@@ -1,0 +1,14 @@
+package Assignmentprograms;
+
+public class Immutable {
+
+	public static void main(String[] args) {
+		String str = new String("Assignment");
+		str.concat("Programs");
+		StringBuffer strbuf=new StringBuffer("Assignment");
+		strbuf.append("programs");
+		System.out.println("String is immutable after concating also it  does not change  "+str);
+		System.out.println("String buffer are mutable "+strbuf);
+	}
+
+}

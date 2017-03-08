@@ -1,0 +1,17 @@
+import java.util.HashSet;
+
+public class HashsetClass {
+
+	public static void main(String[] args) {
+		HashSet hs = new HashSet();
+		hs.add("B");
+		hs.add("c");
+		hs.add("d");
+		hs.add("v");
+		hs.add("a");
+		hs.add("e");
+		hs.add(null);
+		System.out.println(hs);
+	}
+
+}
